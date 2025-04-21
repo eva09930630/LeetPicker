@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "build leetpicker",
+        "type": "shell",
+        "command": "g++",
+        "args": [
+          "-std=c++17",
+          "main.cpp",
+          "-o",
+          "leetpicker"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": ["$gcc"]
+      }
+    ]
+  }
+  
